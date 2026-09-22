@@ -1,0 +1,1 @@
+function e(e){return Math.round(e*100)}function t(e){return e/100}function n(t,n,r){return Math.abs(e(t)+e(n)-e(r))>1}function r(n){return t(n.reduce((t,n)=>t+e(n),0))}export{n as i,r as n,e as r,t};
